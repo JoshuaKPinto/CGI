@@ -4,10 +4,10 @@ Demo of projection of 3D points on a 2D screen.
 */
 
 #include <iostream>
-#include "vertex.h"
+#include "lib/faces.h"
 #include <vector>
-#include "wavefront_parser.h"
-#include "linalg.h"
+#include "lib/wavefront_parser.h"
+#include "lib/linalg.h"
 #include "ImageIO/IMG.h"
 
 using namespace std;
