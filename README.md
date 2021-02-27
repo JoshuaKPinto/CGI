@@ -13,7 +13,8 @@ For a g++ compiler run the following command
 
 Then run the program
 
-	   outputfile.exe 3DObject.obj
+	outputfile.exe 3DObject.obj
+	
 You should see a file `final_rendered_img.png` in your program folder.
 
  
