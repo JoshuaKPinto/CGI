@@ -3,6 +3,7 @@ Joshua Kenneth Pinto
 Demo of projection of 3D points on a 2D screen.
 */
 
+
 #include <iostream>
 #include "lib/faces.h"
 #include <vector>
@@ -18,7 +19,7 @@ Mat44f CreateCamera(Vec3f, Vec3f);
 {
 	std::vector<Vec3f> v;
 	std::vector<face> f;
-	std::string fname = argc >= 2 ? argv[1] : "C:\\cube.obj";
+	std::string fname = argc >= 2 ? argv[1] : ".\\cube.obj";
 	cout << "Reading file : " << fname << "\n";
 
 	int WIDTH = 512, HEIGTH = 512;
